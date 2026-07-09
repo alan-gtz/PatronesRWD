@@ -49,3 +49,16 @@ p {
 
 
 /** CODIGO AQUI **/
+
+@media (min-width: 768px) {
+    .con-sidebar{
+        display: flex; /* Para posicionar de izquierda a derecha el display: flex */
+        gap: 2rem;
+    }
+    aside{
+        flex: 1; /* para que reciba 1 pixel proporcionalmente */
+    }
+    article{
+        flex: 3; /* para que reciba 3 pixeles proporcionalmente */
+    }
+}
